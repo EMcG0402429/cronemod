@@ -4,8 +4,8 @@ Version 1.05
 - Undid crossbow changes in light of armour being better anyway
 - Burden of Time is now Thaum 6
 - Some other minor things I fixed in passing. Fuck. I don't know anymore. I've been sitting here staring at this fucking thing for four hours.
-- I hate all of you.
-- I'll get to the other stuff tomorrow.
+- Lemuria unfucked: Reduced siege defence of freespawn. Added AP to their MR Negates weapons. Changed starting commanders to include a D2 caster, and reduced Revive Lemur Thaumaturg to D2 to cast.
+- Crossbow resource cost increased
 
 Original Changelog
 ------------------

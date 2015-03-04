@@ -481,37 +481,6 @@
 #fixedresearch 3
 #end
 
--- Lemuria Changes, to be excised later --
-Spectral Velite
-#selectmonster 672
-#castledef -1
-#end
-
-Spectral Hastatus
-#selectmonster 673
-#castledef -1
-#end
-
-Spectral Standard
-#selectmonster 682
-#castledef -1
-#end
-
-Spectral Principe
-#selectmonster 2336
-#castledef -1
-#end
-
-Spectral Triarius
-#selectmonster 2337
-#castledef -1
-#end
-
-Spectral Praetorian
-#selectmonster 2338
-#castledef -1
-#end
-
 -- Iron Dragon --
 -- Add noleader tags
 #selectmonster 531
@@ -570,6 +539,109 @@ Spectral Praetorian
 #magicskill 6 2
 #end
 
+-- Dispossessed Spirit --
+-- LA Lemuria, Summon
+-- Dispossessed Spirits have the MR negation on their paralysis toned back
+#selectmonster 674
+#clearweapons
+#weapon 1282
+#end
+
+-- Shadow Tribune --
+-- LA Lemuria
+-- Also get nicer Paralyse
+#selectmonster 681
+#clearweapons
+#weapon 1282
+#end
+
+-- Shadow Soldiers --
+-- LA Lemuria, Site
+-- Also get nicer Paralyse 
+#selectmonster 675
+#clearweapons
+#weapon 1282
+#end
+
+#selectmonster 2339
+#clearweapons
+#weapon 1282
+#end
+
+#selectmonster 2340
+#clearweapons
+#weapon 1282
+#end
+
+-- Lemur Thaumaturg --
+-- LA Lemuria
+-- Magic Duel Resist
+#selectmonster 2334
+#magicskill 4 2
+#magicboost 4 -1
+#end
+
+-- Grand Lemur --
+-- LA Lemuria
+-- Magic Duel Resist
+#selectmonster 2335
+#magicskill 4 3
+#magicboost 4 -1
+#end
+
+-- Spectral Legionaires --
+-- LA Lemuria
+-- +2 strength, -1 castledef (works out to better siege attack, with reduced siege defence)
+-- New weapons: AP, lower damage
+#selectmonster 672
+#str 12
+#castledef -1
+#clearweapons
+#weapon 1279
+#weapon 1280
+#end
+
+#selectmonster 673
+#str 12
+#castledef -1
+#clearweapons
+#weapon 1279
+#weapon 1280
+#end
+
+#selectmonster 2336
+#str 13
+#castledef -1
+#clearweapons
+#weapon 1279
+#weapon 1281
+#end
+
+#selectmonster 2337
+#str 13
+#castledef -1
+#clearweapons
+#weapon 1283
+#end
+
+#selectmonster 2338
+#str 14
+#castledef -1
+#clearweapons
+#weapon 1281
+#end
+
+-- Spectral Standard --
+-- Added Standard 
+#selectmonster 682
+#str 12
+#castledef -1
+#clearweapons
+#weapon 1279
+#weapon 1281
+#standard 1
+#end
+
 ----------------------
 --- Nation Changes ---
 ----------------------
@@ -626,9 +698,10 @@ Spectral Praetorian
 #end
 
 -- LA Lemuria
--- Reduce domkill from 3% per turn to 2%
+-- Reduce domkill from 3% per turn to 2%, switch starting scout from useless Shadow to useful Thaumaturg
 #selectnation 62
 #domkill 20
+#startscout 2334
 #end
 
 -- EA Berytos
@@ -744,8 +817,6 @@ Spectral Praetorian
 #nametype 134
 #end
 
-
-
 -----------------
 -- New Weapons --
 -----------------
@@ -797,9 +868,103 @@ Spectral Praetorian
 #len 0
 #end
 
+-- Spectral Weapons for Lemuria. AP added, and -2 damage. Otherwise identical to unmodded.
+#newweapon 1279
+#name "Spectral Javelin"
+#dmg 0
+#range -1
+#att -2
+#nratt 1
+#ammo 2
+#pierce
+#armorpiercing
+#magic
+#sound 19
+#flyspr 110 1
+#end
+
+#newweapon 1280
+#name "Spectral Spear"
+#dmg 1
+#att 0
+#len 4
+#nratt 1
+#unrepel
+#pierce
+#armorpiercing
+#magic
+#sound 12
+#end
+
+#newweapon 1283
+#name "Spectral Long Spear"
+#dmg 1
+#att 0
+#mrnegates
+#def -1
+#len 5
+#nratt 1
+#unrepel
+#pierce
+#armorpiercing
+#magic
+#sound 12
+#end
+
+#newweapon 1281
+#name "Spectral Sword"
+#dmg 3
+#att 0
+#mrnegates
+#def 1
+#len 1
+#nratt 1
+#unrepel
+#slash
+#armorpiercing
+#magic
+#sound 8
+#end
+
+-- Paralyse that is harder to MR negate, but otherwise identical
+#newweapon 1282
+#name "Paralyze"
+#dmg 5
+#nratt 1
+#len 0
+#armornegating
+#hardmrneg
+#nostr
+#dt_paralyze
+#magic
+#sound 18
+#end
+
 --------------------
 -- Summon Changes --
 --------------------
+
+-- Revive Lemur Thaumaturg --
+-- LA Lemuria
+-- Reduce casting requirement to D2
+#selectspell 263
+#path 0 5
+#pathlevel 0 2
+#end
+
+-- Revive Lemur Consul --
+-- LA Lemuria
+-- -10 Gemcost
+#selectspell 261
+#fatiguecost 1500
+#end
+
+-- Revive Lemur Senator --
+-- LA Lemuria
+-- -5 Gemcost
+#selectspell 260
+#fatiguecost 1000
+#end
 
 -- Daugher of Typhon --
 -- EA Sauro, LA Pythium
@@ -1471,6 +1636,279 @@ Spectral Praetorian
 #mainlevel 2
 #end
 
+----------------------
+--- Armour Changes ---
+----------------------
+-- Leather Cuirass --
+-- +1 prot
+#selectarmor 5
+#prot 6
+#end
+
+-- Full Leather Armor --
+-- +1 prot
+#selectarmor 15
+#prot 10
+#end
+
+-- Ring Mail Cuirass --
+-- -1 resource cost
+#selectarmor 6
+#rcost 2
+#end
+
+-- Ring Mail Hauberk --
+-- +1 def, -1 resource cost
+#selectarmor 11
+#def 0
+#rcost 4
+#end
+
+-- Full Ring Mail --
+-- +1 def, -1 resource cost
+#selectarmor 16
+#def -1
+#rcost 6
+#end
+
+-- Scale Mail Cuirass --
+-- +1 prot, +1 def
+#selectarmor 7
+#prot 11
+#def 0
+#end
+
+-- Chain Mail Cuirass --
+-- +1 prot, +1 def
+#selectarmor 8
+#prot 13
+#def 0
+#end
+
+-- Chain Mail Hauberk --
+-- +1 def
+#selectarmor 13
+#def -1
+#end
+
+-- Full Chain Mail --
+-- +1 def
+#selectarmor 18
+#def -2
+#end
+
+-- Plate Cuirass --
+-- +1 prot, +1 def, -1 enc
+#selectarmor 9
+#prot 15
+#def 0
+#enc 1
+#end
+
+-- Plate Hauberk --
+-- +2 def, -2 enc
+#selectarmor 14
+#enc 2
+#def -1
+#end
+
+-- Full Plate Mail --
+-- -2 enc, +1 def
+#selectarmor 19
+#enc 3
+#def -2
+#end
+
+-- Coral Cuirass --
+-- +2 prot, -1 enc, +3 resource cost
+#selectarmor 22
+#prot 11
+#enc 1
+#rcost 10
+#end
+
+-- Coral Hauberk --
+-- +3 prot, +1 def, -2 enc, +5 resource cost
+#selectarmor 23
+#prot 14
+#def -1
+#enc 2
+#rcost 15
+#end
+
+-- Ice Cuirass --
+-- +1 prot, +1 def, -1 enc
+#selectarmor 26
+#prot 15
+#def 0
+#enc 0
+#end
+
+-- Ice Hauberk --
+-- +1 def, -1 enc
+#selectarmor 27
+#def -1
+#enc 1
+#end
+
+-- Ice Studded Armor --
+-- +1 def
+#selectarmor 52
+#def 0
+#end
+
+-- Full Chain of Ulm --
+-- +1 def
+#selectarmor 192
+#def -2
+#end
+
+-- Full plate of Ulm --
+-- +1 def, -1 enc
+#selectarmor 91
+#def -2
+#enc 3
+#end
+
+-- Bronze Cuirass --
+-- +1 prot, +1 def, -1 enc
+#selectarmor 100
+#prot 14
+#def 0
+#enc 2
+#end
+
+-- Bronze Hauberk --
+-- +1 def, -2 enc
+#selectarmor 101
+#def -1
+#enc 3
+#end
+
+-- Spider Armor --
+-- +1 def, -1 enc, -6 resource cost
+#selectarmor 111
+#def -2
+#enc 3
+#rcost 20
+#end
+
+-- Ashigaru Armor --
+-- +1 def, -1 enc
+#selectarmor 128
+#def 0
+#enc 1
+#end
+
+-- Samurai Armor --
+-- +1 def, -1 enc
+#selectarmor 129
+#def -1
+#enc 2
+#end
+
+-- Heavy Samurai Armor --
+-- +1 def, -1 enc
+#selectarmor 130
+#def -2
+#enc 3
+#end
+
+-- Basalt Armor --
+-- +1 def, -2 enc, -10 resource cost
+#selectarmor 153
+#def -3
+#enc 4
+#rcost 20
+#end
+
+-- Ancestor Cuirass --
+-- +1 def, -1 enc
+#selectarmor 154
+#def 0
+#enc 1
+#end
+
+-- Raptorian Plate Cuirass --
+-- +1 prot, +1 def, -1 enc
+#selectarmor 198
+#prot 14
+#def 0
+#enc 0
+#rcost 17
+#end
+
+-- Turan Plated Mail --
+-- -1 prot, +1 def, -1 enc, +2 resource cost
+#selectarmor 199
+#prot 19
+#def -2
+#enc 3
+#rcost 19
+#end
+
+-- Lorica Squamata --
+-- +1 resource cost
+#selectarmor 117
+#rcost 8
+#end
+
+-- Lorica Segmentata --
+-- -2 resource cost
+#selectarmor 99
+#rcost 9
+#end
+
+----------------------
+--- Weapon Changes ---
+----------------------
+
+-- >Crossbow --
+-- +3 resource cost
+#selectweapon 25
+#rcost 6
+#end
+
+--------------------
+--- Indy Changes ---
+--------------------
+--Barbarians--
+#selectmonster 139
+#spr1 "Domg balance mod/barbarian B 1.tga"
+#spr2 "Domg balance mod/barbarian B 2.tga"
+#clearweapons
+#weapon 18
+#end
+
+#selectmonster 140
+#spr1 "Domg balance mod/barbarian B 1.tga"
+#spr2 "Domg balance mod/barbarian B 2.tga"
+#clearweapons
+#weapon 18
+#end
+
+#selectmonster 141
+#spr1 "Domg balance mod/barbarian 1.tga"
+#spr2 "Domg balance mod/barbarian 2.tga"
+#clearweapons
+#weapon 18
+#end
+
+#selectmonster 147
+#spr1 "Domg balance mod/barbarian C 1.tga"
+#spr2 "Domg balance mod/barbarian C 2.tga"
+#clearweapons
+#weapon 18
+#cleararmor
+#armor 12
+#end
+
+#selectpoptype 25
+#clearrec
+#addreccom 141
+#addrecunit 139
+#end
+
 ----------------------------------
 -- Sweeping Broad Scale Changes --
 ----------------------------------
@@ -1781,270 +2219,6 @@ Spectral Praetorian
 
 #selectmonster 2584
 #gcost 10022
-#end
-
-
-----------------------
---- Armour Changes ---
-----------------------
--- Leather Cuirass --
--- +1 prot
-#selectarmor 5
-#prot 6
-#end
-
--- Full Leather Armor --
--- +1 prot
-#selectarmor 15
-#prot 10
-#end
-
--- Ring Mail Cuirass --
--- -1 resource cost
-#selectarmor 6
-#rcost 2
-#end
-
--- Ring Mail Hauberk --
--- +1 def, -1 resource cost
-#selectarmor 11
-#def 0
-#rcost 4
-#end
-
--- Full Ring Mail --
--- +1 def, -1 resource cost
-#selectarmor 16
-#def -1
-#rcost 6
-#end
-
--- Scale Mail Cuirass --
--- +1 prot, +1 def
-#selectarmor 7
-#prot 11
-#def 0
-#end
-
--- Chain Mail Cuirass --
--- +1 prot, +1 def
-#selectarmor 8
-#prot 13
-#def 0
-#end
-
--- Chain Mail Hauberk --
--- +1 def
-#selectarmor 13
-#def -1
-#end
-
--- Full Chain Mail --
--- +1 def
-#selectarmor 18
-#def -2
-#end
-
--- Plate Cuirass --
--- +1 prot, +1 def, -1 enc
-#selectarmor 9
-#prot 15
-#def 0
-#enc 1
-#end
-
--- Plate Hauberk --
--- +2 def, -2 enc
-#selectarmor 14
-#enc 2
-#def -1
-#end
-
--- Full Plate Mail --
--- -2 enc, +1 def
-#selectarmor 19
-#enc 3
-#def -2
-#end
-
--- Coral Cuirass --
--- +2 prot, -1 enc, +3 resource cost
-#selectarmor 22
-#prot 11
-#enc 1
-#rcost 10
-#end
-
--- Coral Hauberk --
--- +3 prot, +1 def, -2 enc, +5 resource cost
-#selectarmor 23
-#prot 14
-#def -1
-#enc 2
-#rcost 15
-#end
-
--- Ice Cuirass --
--- +1 prot, +1 def, -1 enc
-#selectarmor 26
-#prot 15
-#def 0
-#enc 0
-#end
-
--- Ice Hauberk --
--- +1 def, -1 enc
-#selectarmor 27
-#def -1
-#enc 1
-#end
-
--- Ice Studded Armor --
--- +1 def
-#selectarmor 52
-#def 0
-#end
-
--- Full Chain of Ulm --
--- +1 def
-#selectarmor 192
-#def -2
-#end
-
--- Full plate of Ulm --
--- +1 def, -1 enc
-#selectarmor 91
-#def -2
-#enc 3
-#end
-
--- Bronze Cuirass --
--- +1 prot, +1 def, -1 enc
-#selectarmor 100
-#prot 14
-#def 0
-#enc 2
-#end
-
--- Bronze Hauberk --
--- +1 def, -2 enc
-#selectarmor 101
-#def -1
-#enc 3
-#end
-
--- Spider Armor --
--- +1 def, -1 enc, -6 resource cost
-#selectarmor 111
-#def -2
-#enc 3
-#rcost 20
-#end
-
--- Ashigaru Armor --
--- +1 def, -1 enc
-#selectarmor 128
-#def 0
-#enc 1
-#end
-
--- Samurai Armor --
--- +1 def, -1 enc
-#selectarmor 129
-#def -1
-#enc 2
-#end
-
--- Heavy Samurai Armor --
--- +1 def, -1 enc
-#selectarmor 130
-#def -2
-#enc 3
-#end
-
--- Basalt Armor --
--- +1 def, -2 enc, -10 resource cost
-#selectarmor 153
-#def -3
-#enc 4
-#rcost 20
-#end
-
--- Ancestor Cuirass --
--- +1 def, -1 enc
-#selectarmor 154
-#def 0
-#enc 1
-#end
-
--- Raptorian Plate Cuirass --
--- +1 prot, +1 def, -1 enc
-#selectarmor 198
-#prot 14
-#def 0
-#enc 0
-#rcost 17
-#end
-
--- Turan Plated Mail --
--- -1 prot, +1 def, -1 enc, +2 resource cost
-#selectarmor 199
-#prot 19
-#def -2
-#enc 3
-#rcost 19
-#end
-
--- Lorica Squamata --
--- +1 resource cost
-#selectarmor 117
-#rcost 8
-#end
-
--- Lorica Segmentata --
--- -2 resource cost
-#selectarmor 99
-#rcost 9
-#end
-
---------------------
---- Indy Changes ---
---------------------
---Barbarians--
-#selectmonster 139
-#spr1 "Domg balance mod/barbarian B 1.tga"
-#spr2 "Domg balance mod/barbarian B 2.tga"
-#clearweapons
-#weapon 18
-#end
-
-#selectmonster 140
-#spr1 "Domg balance mod/barbarian B 1.tga"
-#spr2 "Domg balance mod/barbarian B 2.tga"
-#clearweapons
-#weapon 18
-#end
-
-#selectmonster 141
-#spr1 "Domg balance mod/barbarian 1.tga"
-#spr2 "Domg balance mod/barbarian 2.tga"
-#clearweapons
-#weapon 18
-#end
-
-#selectmonster 147
-#spr1 "Domg balance mod/barbarian C 1.tga"
-#spr2 "Domg balance mod/barbarian C 2.tga"
-#clearweapons
-#weapon 18
-#cleararmor
-#armor 12
-#end
-
-#selectpoptype 25
-#clearrec
-#addreccom 141
-#addrecunit 139
 #end
 
 --Because life for a life kept coming up as "end" with no description for some reason--
