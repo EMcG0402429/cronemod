@@ -1,0 +1,174 @@
+Nation Modding
+
+Pythium
+-Lizard Auxiliares recruitable from MA and LA forts
+-Hydra, Hydra Hatchling and Daughter of Typhon poison cloud replaced with poison breath weapon
+-Hydra, Hydra Hatchling and Daughter of Typhon get recuperation
+-Daughter of Typhon spell moved to research level 8 from 9
+-Reveler nature/blood random increased to 100%
+-Heliodromus paths changed to 2F 10% N
+
+EA Ulm
+-Shaman price reduced to 125
+-Antlered shamans not STR
+-Antlered shamans random increased to 20%
+
+Abysia
+-EA and MA Anathemant salamanders and anathemant dragons get a 10% EADB random (so they can -sometimes- cast solar eclipse and smoulderghosts)
+-Demonbred and Misbred get the demon tag ("Part demon, part Abysian, they share the strengths and weaknesses of both." That is now true.)
+-EA demonbred given poorleader and poorundeadleader
+
+Marverni
+-All Marverni units get forest survival
+-Marverni archer and chariot unit (Marverni could use some unit variety. Gauls actually did use bows and chariots in battle)
+
+MA Marignon
+-Witch Hunter 20% FAES random
+
+LA Marignon
+-Targeteer added (shield unit)
+
+MA and LA Ulm
+-Iron Blizzard 20+5 effects from 30+5
+-Sanguine Heritage Blood 3 from 0
+
+Yomi
+-Start with a Fortress instead of a Palisade
+-Start with a Demon General and Bandit instead of two bandits
+-Bandits are forest recruitable
+-Oni 30 gold from 40
+-Kuro-Oni 40 gold from 50
+-Spreadchaos 3
+
+Lanka
+-Spreadchaos 2
+
+Berytos
+-Removed coastal income bonus
+
+Bogarus
+-Styag AP 20 from 23 (to discourage their running ahead and dying first)
+
+Asspoodle
+-Temples 200 from 100
+
+MA Ermor
+-Popkill 3% from 5%
+
+LA Lemuria
+-Popkill 2% from 3%
+
+Summons Modding
+
+-Arouse Hunger now summons 20 ghouls from 10
+-Summon Animals 8 gems from 10
+-Black Servant 4 gems from 5
+-Summon Amphiptere 3 gems from 5
+-Summon Yetis 12 gems from 15
+-Revive Wights 6 wights from 4
+-Call of the Wild 10 gems from 15
+-Fire Drake 6 gems from 7
+-Ice Drake 6 gems from 7
+-Cave Drake 5 gems from 5
+-Swamp Drake 7 gems from 8
+-Kithaironic Lion 2 gems from 3
+-Contact Draconians 40 gems from 45, draconians get 2 claw attacks, size 3 from 4
+-Contact Naiad 30 gems from 35
+-Naiad Warriors 20 gems from 30
+-Summon Manticore 4 gems from 5
+-Sea King's Court 45 gems from 55, sea trolls have fists replaced with claws
+-Stream from Hades 35 gems from 40
+-Contact Hill Giant 5 gems from 8
+-Troll King's Court 45 gems from 55
+-Ether Gate 65 gems from 90
+-Contact Forest Giant 4 gems from 6
+-Contact Lamia Queen 20 gems from 25
+-Summon Asp Turtle 8 gems from 13
+-Summon Catoblepas 10 gems from 15
+-Awaken Ivy King 25 gems from 30
+-Call Abomination 20 gems from 25
+-Awaken Tarrasque 20 gems from 25
+-Crusher Construction 8 gems from 15
+-Wooden Construction 3 gems from 5
+-Golem Construction 25 gems from 30
+-Siege Golem 12 gems from 20
+-Juggernaut Construction 12 gems from 25
+-Reanimation 2 gems from 5
+-Gelatinous Cube AP 6 from 2
+-Behometh 7 gems from 10
+-Bind Spine Devil B1 from B2
+-Bind Serpent Fiend summons 3 fiends at 3x the price
+-Hidden In Snow/Sand/Underneath 55 gems from 75
+-Summonable elephant undisciplined, -2 prot
+-Se'rim size 3 from 2
+-Shedim size 4 from 3
+
+
+Spells Modding
+-Fires from Afar 8 gems from 10
+-Arcane Probing 2 gems from 3
+-Rain of Stones 2 gems from 1
+-Numbness research level 2 from 3
+-Breath of the Desert F3 from F3A1
+-Dark Knowledge 3 gems from 4
+-Acashic Record 5 gems from 10
+-Acashic Knowledge research level 5 from 6, 20 gems from 25
+-Dragon Master research level 4 from 8, 14 gems from 30
+-Dome of Solid Air level 5 from 6, 12 gems from 20
+-Frost Dome level 4 from 6, W4 from W5, 8 gems from 15
+-Dome of Arcane Warding level 4 from 6, 6 gems from 10
+-Dome of Flaming Death level 5 from 7, 5 gems from 8
+-Forest Dome level 5 from 7, N4 from N5, 8 gems from 10
+-Auspex range 3 from 2
+-Gift of Reason 12 gems from 20
+-Burden of Time level 8 from 5
+-Impring Souls 15 gems from 25
+-Divine Name 14 gems from 25
+-Rain of Toads 20 slaves from 10
+-Bonds of Fire level 1 from 2
+-Prison of Fire level 2 from 3
+-Tangle Vines, Earth Might, Cheat Fate, Enlarge, Luck, Mossbody, Protection, Quickness, Iron Warriors, Wooden Warriors, Army of Giants, Battle Fortune, Gift of Flight, Berserkers, and Iron Will now scale
+-Berserkers and Touch of Madness were reversed. Touch of Madness range 1 level 2, Bersekers range 15 level 4 aoe 2+
+
+Item Modding
+-Treelord Staff N5 from N6
+-Robe of the Magi A5B5 from A6B6
+-Sword of Swiftness grants Quickness. Defense lowered to compensate for quickness bonus. Const level 6 from 4
+-Brands weapon damage reduced to 8 from their absurdly high vanilla amounts
+-Pebble Pouch now throws three boulders with each attack and range increased(disabled- remove boulder weapon and autocast Flying Shards each round)
+-Cat charm 5 gems from 10
+-Cat's Eye Amulet Darkvision 100 from 50
+-Amulet of the Fish W1 from W1A1
+-Vine Whip 5 gems from 10, level 2 from 4
+-Vine Bow level 2 from 4
+-Banefire Crossbow level 4 from 6
+-Bow of War level 4 from 6
+-Robe of Invulnerability 10 gems from 20
+-Wraith Sword 15 gems from 20
+
+Misc. Changes
+
+-Most cavalry made 5-10 gold cheaper.
+-Changes to many armors. Generally, encumberance and defense penalties have been reduced, especially for advanced armors. Ring mail has been renamed to "Padded Armor" and incorrect uses of the words "Hauberk" and "Mail" have been removed due to extreme artism.
+-Crossbows have had armor piercing proprety removed and replaced with higher damage. They will do the same average damage against 14 or 15 prot enemies. 
+-Barbarians no longer look like Skwisgaar. They have 2 handed axes instead of mauls and greatswords.
+
+
+1.04 added? I don't know anymore
++Wraith Sword 15 gems from 20
++Devil fire shield 6, cold weakness removed from devils and imps
++Sword of Swiftness level 6 from 4
++spine devils B1 from B2
++Imp Familiars demon leadership 10, demon whip 20
++Iron Angels summoning paths E4S1
++LA Man Magisters Arcane better at magic dueling
++Gate Cleaver and Wall Shaker 10 from 15
++Ashigaru Archer added to Jomon
++Boar Warrior 22 gold from 30
++Heliodromus 2F, 50%N 10% F
++heliodromus, epoptes and reveler less heretical
++Lemuria's spectral soldiers castle defense bonus -1
++pythium communicant research 3
++Bakemono-sho get +1 morale and slave tag, bakemono generals inspiration, shuten doji taskmasters
++Serpent Acolyte N2
++Make high-level summons into commanders -Iron Dragon, Tarrasque, abomination, siege golem, juggernaut
