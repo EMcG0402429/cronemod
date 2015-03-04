@@ -1,3 +1,14 @@
+Version 1.05
+------------
+- Code refactored, commented, and categorized
+- Undid crossbow changes in light of armour being better anyway
+- Burden of Time is now Thaum 6
+- Some other minor things I fixed in passing. Fuck. I don't know anymore. I've been sitting here staring at this fucking thing for four hours.
+- I hate all of you.
+- I'll get to the other stuff tomorrow.
+
+Original Changelog
+------------------
 Nation Modding
 
 Pythium
@@ -149,10 +160,8 @@ Item Modding
 Misc. Changes
 
 -Most cavalry made 5-10 gold cheaper.
--Changes to many armors. Generally, encumberance and defense penalties have been reduced, especially for advanced armors. Ring mail has been renamed to "Padded Armor" and incorrect uses of the words "Hauberk" and "Mail" have been removed due to extreme artism.
--Crossbows have had armor piercing proprety removed and replaced with higher damage. They will do the same average damage against 14 or 15 prot enemies. 
+-Changes to many armors. Generally, encumberance and defense penalties have been reduced, especially for advanced armors. Ring mail has been renamed to "Padded Armor" and incorrect uses of the words "Hauberk" and "Mail" have been removed due to extreme autism.
 -Barbarians no longer look like Skwisgaar. They have 2 handed axes instead of mauls and greatswords.
-
 
 1.04 added? I don't know anymore
 +Wraith Sword 15 gems from 20
@@ -167,7 +176,6 @@ Misc. Changes
 +Boar Warrior 22 gold from 30
 +Heliodromus 2F, 50%N 10% F
 +heliodromus, epoptes and reveler less heretical
-+Lemuria's spectral soldiers castle defense bonus -1
 +pythium communicant research 3
 +Bakemono-sho get +1 morale and slave tag, bakemono generals inspiration, shuten doji taskmasters
 +Serpent Acolyte N2
