@@ -850,8 +850,8 @@
 -- EA Abysia
 -- Abysian caverecruit earth mage. Basically an FE Salamander. 1F1E1H 10% +1 FE
 #newmonster 4501
-#copystats 1678
-#copyspr 1678
+#copystats 1698
+#copyspr 1698
 #name "Anathemant Basilisk"
 #descr "The authority of the Abysian Warlords is limited to acts of war. In all other matters, Abysia is ruled by the Anathemants and the Annointed of Rhuax. Anathemant Basilisks are lowly priests of the Abysian Flame Cult. Anathemants excel in Fire magic and use fire not only to incinerate infidels, but also to feed the anger inherent in the hearts of all Abysian warriors. The Anathemants practice human sacrifice to empower their Master's Dominion by the magic inherent in human blood. Anathemant Basilisks are Abysians and radiate the hellish heat characteristic of their race."
 #clearmagic
