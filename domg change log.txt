@@ -1,3 +1,9 @@
+With all due credit to my predecessors.
+--------------------------------------------------------------------------------------
+IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/issues
+--------------------------------------------------------------------------------------
+Changelog
+---------
 Version 1.05
 ------------
 - Code refactored, commented, and categorized
