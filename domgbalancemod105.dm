@@ -642,6 +642,13 @@
 #standard 1
 #end
 
+-- Living Pillar --
+-- EA Atlantis
+-- Gave a Basalt Beret so they don't get headshotted quite so much
+#selectmonster 1690
+#armor 301
+#end
+
 ----------------------
 --- Nation Changes ---
 ----------------------
@@ -938,6 +945,18 @@
 #dt_paralyze
 #magic
 #sound 18
+#end
+
+----------------
+-- New Armour --
+----------------
+
+-- Basalt Helm for Living Pillars
+#newarmor 301
+#name "Basalt Helm"
+#type 6
+#prot 21
+#rcost 1
 #end
 
 --------------------
