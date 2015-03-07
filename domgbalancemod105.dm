@@ -649,6 +649,14 @@
 #armor 301
 #end
 
+-- Anointed of Rhuax --
+-- EA Abysia
+-- Adjust for greater path variety (-1 F, +100% +1 FEAB)
+#selectmonster 1536
+#magicskill 0 3
+#custommagic 19584 100
+#end 
+
 ----------------------
 --- Nation Changes ---
 ----------------------
@@ -727,6 +735,20 @@
 -- Add new Ashigaru Archer
 #selectnation 69
 #addrecunit 5545
+#end
+
+-- Abysia
+-- Add caverecruit FE salamanders
+#selectnation 13
+#cavecom 4501
+#end
+
+#selectnation 45
+#cavecom 4502
+#end
+
+#selectnation 71
+#cavecom 4503
 #end
 
 ---------------
@@ -823,6 +845,52 @@
 #descr "Ashigaru are light infantry levied from the peasant population of Jomon. They are armed with long two-handed spears and don light scale armor and war hats. The hats are made of iron and used to cook rice when not worn."
 #nametype 134
 #end
+
+-- Anathemant Basilisk --
+-- EA Abysia
+-- Abysian caverecruit earth mage. Basically an FE Salamander. 1F1E1H 10% +1 FE
+#newmonster 4501
+#copystats 1678
+#copyspr 1678
+#name "Anathemant Basilisk"
+#descr "The authority of the Abysian Warlords is limited to acts of war. In all other matters, Abysia is ruled by the Anathemants and the Annointed of Rhuax. Anathemant Basilisks are lowly priests of the Abysian Flame Cult. Anathemants excel in Fire magic and use fire not only to incinerate infidels, but also to feed the anger inherent in the hearts of all Abysian warriors. The Anathemants practice human sacrifice to empower their Master's Dominion by the magic inherent in human blood. Anathemant Basilisks are Abysians and radiate the hellish heat characteristic of their race."
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 8 1
+#custommagic 1152 10
+#end
+
+-- Anathemant Basilisk --
+-- MA Abysia
+-- Same as above, just different age appropriate description/paths.
+#newmonster 4502
+#copystats 85
+#copyspr 85
+#name "Anathemant Basilisk"
+#descr "The authority of the Abysian Warlords is limited to acts of war. In all other matters, Abysia is ruled by the Anathemants. Anathemant Basilisks are the holy priests of the Abysian faith. Anathemants excel in Fire magic and use fire not only to incinerate infidels, but also to feed the anger inherent in the hearts of all Abysian warriors. The Anathemants practice human sacrifice to empower their Master's Dominion by the magic inherent in human blood. Anathemant Basilisks are Abysians and radiate the hellish heat characteristic of their race."
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 8 2
+#custommagic 1152 10
+#end
+
+-- Anathemant Basilisk --
+-- LA Abysia
+-- Same as above, just different age appropriate description/paths.
+#newmonster 4503
+#copystats 1969
+#copyspr 1969
+#name "Anathemant Basilisk"
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 8 2
+#custommagic 1152 100
+#custommagic 23552 10
+#end
+
 
 -----------------
 -- New Weapons --

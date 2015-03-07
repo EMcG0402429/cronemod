@@ -6,6 +6,8 @@ Version 1.05
 - Some other minor things I fixed in passing. Fuck. I don't know anymore. I've been sitting here staring at this fucking thing for four hours.
 - Lemuria unfucked: Reduced siege defence of freespawn. Added AP to their MR Negates weapons. Changed starting commanders to include a D2 caster, and reduced Revive Lemur Thaumaturg to D2 to cast.
 - Crossbow resource cost increased
+- Hats for Living Pillars to go with their resource cost reduction
+- Abysia gets caverecruit fire/earth casters, and the Annointed of Rhuuax have their path variety increased.
 
 Original Changelog
 ------------------
