@@ -4,6 +4,10 @@ IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/
 --------------------------------------------------------------------------------------
 Changelog
 ---------
+Version 1.05a
+-------------
+- Fixed a stupid bug in the new EA Anathemant Basilisk which was causing them to be an Agarthan hero instead of a Salamander.
+
 Version 1.05
 ------------
 - Code refactored, commented, and categorized
