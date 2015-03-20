@@ -4,6 +4,13 @@ IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/
 --------------------------------------------------------------------------------------
 Changelog
 ---------
+Version 1.06
+------------
+- Shinuyama adjustments
+-- Made Bandits forestrecruit
+-- Reduced recruitment age of Bakemono Sorcerors (still start in old age, but MUCH LESS old age)
+-- Removed upkeep cost of summoned Oni (this also affects Jomon)
+
 Version 1.05a
 -------------
 - Fixed a stupid bug in the new EA Anathemant Basilisk which was causing them to be an Agarthan hero instead of a Salamander.

@@ -1,6 +1,6 @@
-#modname "/domg/ Balance Mod 1.05"
+#modname "/domg/ Balance Mod 1.06"
 #description "A balance mod for nubs and scrubs alike"
-#version 1.05
+#version 1.06
 #icon "domg balance mod/domg.tga"
 #end
 -- With all due credit to The Crone
@@ -657,6 +657,13 @@
 #custommagic 19584 100
 #end 
 
+-- Bakemono Sorcerer --
+-- MA Shinuyama
+-- Reduced recruitment age slightly (still old-aged)
+#selectmonster 1427
+#older -25
+#end
+
 ----------------------
 --- Nation Changes ---
 ----------------------
@@ -749,6 +756,14 @@
 
 #selectnation 71
 #cavecom 4503
+#end
+
+-- MA Shinuyama
+-- Add forestrecruit Bandits
+#selectnation 54
+#forestcom 1313
+#forestrec 1312
+#forestrec 1311
 #end
 
 ---------------
@@ -891,6 +906,99 @@
 #custommagic 23552 10
 #end
 
+-- Oni
+-- MA Shinuyama, LA Jomon
+-- New versions for Summon spells, without gold cost
+#newmonster 5460
+#copystats 1260
+#copyspr 1260
+#gcost 0
+#secondshape 5461
+#end
+
+#newmonster 5461
+#copystats 1261
+#copyspr 1261
+#firstshape 5460
+#end
+
+#newmonster 5464
+#copystats 1264
+#copyspr 1264
+#gcost 0
+#secondshape 5465
+#end
+
+#newmonster 5465
+#copystats 1265
+#copyspr 1265
+#firstshape 5464
+#end
+
+#newmonster 5466
+#copystats 1266
+#copyspr 1266
+#gcost 0
+#secondshape 5467
+#end
+
+#newmonster 5467
+#copystats 1267
+#copyspr 1267
+#firstshape 5466
+#end
+
+#newmonster 5472
+#copystats 1272
+#copyspr 1272
+#gcost 0
+#secondshape 5473
+#end
+
+#newmonster 5473
+#copystats 1273
+#copyspr 1273
+#firstshape 5472
+#end
+
+#newmonster 5474
+#copystats 1274
+#copyspr 1274
+#gcost 0
+#secondshape 5475
+#end
+
+#newmonster 5475
+#copystats 1275
+#copyspr 1275
+#firstshape 5474
+#end
+
+#newmonster 5476
+#copystats 1276
+#copyspr 1276
+#gcost 0
+#secondshape 5477
+#end
+
+#newmonster 5477
+#copystats 1277
+#copyspr 1277
+#firstshape 5476
+#end
+
+#newmonster 5416
+#copystats 1316
+#copyspr 1316
+#gcost 0
+#secondshape 5417
+#end
+
+#newmonster 5417
+#copystats 1317
+#copyspr 1317
+#firstshape 5416
+#end
 
 -----------------
 -- New Weapons --
@@ -1066,6 +1174,38 @@
 #selectspell 313
 #researchlevel 3
 #end
+
+-- Summon Oni --
+-- MA Shinuyama, LA Jomon
+-- Switch to upkeepless versions of the various Oni flavours
+#selectspell 386
+#damage 5476
+#end
+
+#selectspell 388
+#damage 5416
+#end
+
+#selectspell 375
+#damage 5460
+#end
+
+#selectspell 377
+#damage 5464
+#end
+
+#selectspell 379
+#damage 5466
+#end
+
+#selectspell 382
+#damage 5472
+#end
+
+#selectspell 385
+#damage 5474
+#end
+
 
 -- Arouse Hunger --
 -- +2 Ghouls per cast
