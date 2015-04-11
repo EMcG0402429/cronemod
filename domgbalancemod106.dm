@@ -1059,6 +1059,7 @@
 #att -2
 #nratt 1
 #ammo 2
+#mrnegates
 #pierce
 #armorpiercing
 #magic
@@ -1072,6 +1073,7 @@
 #att 0
 #len 4
 #nratt 1
+#mrnegates
 #unrepel
 #pierce
 #armorpiercing
