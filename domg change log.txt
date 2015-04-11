@@ -4,6 +4,10 @@ IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/
 --------------------------------------------------------------------------------------
 Changelog
 ---------
+Version 1.06b
+-------------
+-Fixed stupid mistake with new Lemuria weapons
+
 Version 1.06
 ------------
 - Shinuyama adjustments
