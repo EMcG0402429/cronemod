@@ -1,6 +1,6 @@
 #modname "/domg/ Balance Mod 1.06"
 #description "A balance mod for nubs and scrubs alike"
-#version 1.06
+#version 1.07
 #icon "domg balance mod/domg.tga"
 #end
 -- With all due credit to The Crone
@@ -539,14 +539,6 @@
 #magicskill 6 2
 #end
 
--- Dispossessed Spirit --
--- LA Lemuria, Summon
--- Dispossessed Spirits have the MR negation on their paralysis toned back
-#selectmonster 674
-#clearweapons
-#weapon 1282
-#end
-
 -- Shadow Tribune --
 -- LA Lemuria
 -- Also get nicer Paralyse
@@ -615,6 +607,7 @@
 #clearweapons
 #weapon 1279
 #weapon 1281
+#sacred
 #end
 
 #selectmonster 2337
@@ -628,6 +621,7 @@
 #str 14
 #castledef -1
 #clearweapons
+#sacred
 #weapon 1281
 #end
 
