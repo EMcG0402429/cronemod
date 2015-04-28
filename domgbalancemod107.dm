@@ -1704,6 +1704,13 @@
 #range 1
 #end
 
+-- Mechanical Militia
+-- -4 research level, -40 gemcost
+#selectspell 765
+#researchlevel 5
+#fatiguecost 4000
+#end
+
 --------------------
 --- Item Changes ---
 --------------------
