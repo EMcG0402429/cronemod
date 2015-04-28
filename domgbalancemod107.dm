@@ -1711,6 +1711,70 @@
 #fatiguecost 4000
 #end
 
+-- Fata Morgana
+-- -10 gemcost, -1 pathreq
+#selectspell 602
+#fatiguecost 8000
+#pathlevel 0 6
+#end
+
+-- Riches from Beneath
+-- -30 gemcost, -1 pathreq
+#selectspell 831
+#fatiguecost 4000
+#pathlevel 0 4
+#end
+
+-- Lure of the Deep
+-- -20 gemcost, -1 researchlevel
+#selectspell 934
+#fatiguecost 5000
+#researchlevel 7
+#end
+
+-- Purgatory
+-- -20 gemcost, -1 researchlevel
+#selectspell 925
+#fatiguecost 4000
+#researchlevel 6
+#end
+
+-- The Kindly Ones
+-- -1 researchlevel, -2 pathreq
+#selectspell 741
+#researchlevel 7
+#pathlevel 0 4
+#pathlevel 1 2
+#end
+
+-- Celestial Rainbow
+-- -2 pathlevel, -20 gemcost
+#selectspell 742
+#pathlevel 0 5
+#pathlevel 1 3
+#fatiguecost 6000
+#end
+
+-- Wrath of the Sea
+-- -2 researchlevel, -20 gemcost
+#selectspell 857
+#researchlevel 6
+#fatiguecost 5000
+#end
+
+-- The Looming Hell
+-- -50 slavecost, -1 pathlevel
+#selectspell 1007
+#fatiguecost 10000
+#pathlevel 0 7
+#end
+
+-- Strands of Arcane Power
+-- -20 gemcost
+#selectspell
+#fatiguecost 5000
+#end
+
 --------------------
 --- Item Changes ---
 --------------------

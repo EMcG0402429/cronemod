@@ -6,7 +6,7 @@ Changelog
 ---------
 Version 1.07
 ------------
-- Mechanical Militia halved Gemcost, moved to Const 5
+- Unused global adjustments. Reducing research/cost/path requirements on those that don't see play
 - Removed better Paralyze from Lemuria freespawn, left it on Shadow Tribunes though. Too good for stuff that massable.
 - Lemurian rare freespawn (Principes and Praetorians) made Sacred, because it is weird that Lemuria has zero Sacred troops. Still not massable or hugely significant, but makes them a bit beefier as bodyguards, at least.
 
