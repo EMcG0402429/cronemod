@@ -1,4 +1,4 @@
-#modname "/domg/ Balance Mod 1.06"
+#modname "/domg/ Balance Mod 1.07"
 #description "A balance mod for nubs and scrubs alike"
 #version 1.07
 #icon "domg balance mod/domg.tga"
@@ -2432,13 +2432,3 @@
 #selectmonster 2584
 #gcost 10022
 #end
-
---Because life for a life kept coming up as "end" with no description for some reason--
-#selectspell 999
-#name "Life for a Life"
-#descr "The Blood mage sacrifices a virgin and in exchange his foes are slain on the battlefield. Lifeless beings are immune to this spell, everyone else will take severe and irresistible damage from it."
-#end
---why I don't get it--
-
-
---/New stuff, needs to be integrated into other sections--
