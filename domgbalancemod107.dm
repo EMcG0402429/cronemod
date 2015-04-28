@@ -541,26 +541,8 @@
 
 -- Shadow Tribune --
 -- LA Lemuria
--- Also get nicer Paralyse
+-- Get nicer Paralyse
 #selectmonster 681
-#clearweapons
-#weapon 1282
-#end
-
--- Shadow Soldiers --
--- LA Lemuria, Site
--- Also get nicer Paralyse 
-#selectmonster 675
-#clearweapons
-#weapon 1282
-#end
-
-#selectmonster 2339
-#clearweapons
-#weapon 1282
-#end
-
-#selectmonster 2340
 #clearweapons
 #weapon 1282
 #end
