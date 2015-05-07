@@ -1482,9 +1482,15 @@
 #end
 
 -- Rain of Stones --
--- Doubled fatigue
+-- Affects 50% of battlefield
 #selectspell 483
-#fatiguecost 200
+#aoe 663
+#end
+
+-- Earthquake --
+-- Affects 50% of battlefield
+#selectspell 458
+#aoe 663
 #end
 
 -- Numbness --
