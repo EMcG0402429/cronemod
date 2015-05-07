@@ -1447,10 +1447,33 @@
 #descr "The caster makes a mechanical dragon covered with thick iron plates. The iron dragon is tremendously large, almost invulnerable and unaffected by heat, cold, shock and poison. They are able to fly and can trample smaller beings. In its iron belly a furnace of magic flames waits to be released upon its enemies. Should the dragon be destroyed the magical furnace will explode and kill everyone near the iron monstrosity. "
 #end
 
+----------------
+-- New Spells --
+----------------
+
+-- Heat of the Summer Sun --
+-- Everyone
+-- Battlefield wide fireboost
+#newspell
+#name "Heat of the Summer Sun"
+#descr "This spell makes all wizards on the battlefield more powerful in Fire magic"
+#school 0
+#researchlevel 5
+#path 0 0
+#pathlevel 0 3
+#aoe 666
+#effect 23
+#damage 262144
+#fatiguecost 300
+#sound 16
+#explspr 10113
+#range 0
+#precision 100
+#end
+
 -------------------
 -- Spell Changes --
 -------------------
-
 -- Iron Blizzard --
 -- MA Ulm, LA Ulm
 -- Reduce base number of projectiles from 25 to 15
