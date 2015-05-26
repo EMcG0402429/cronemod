@@ -1,6 +1,6 @@
-#modname "/domg/ Balance Mod 1.07"
+#modname "/domg/ Balance Mod 1.08"
 #description "A balance mod for nubs and scrubs alike"
-#version 1.07
+#version 1.08
 #icon "domg balance mod/domg.tga"
 #end
 -- With all due credit to The Crone
@@ -735,7 +735,7 @@
 #end
 
 -- MA Shinuyama
--- Add forestrecruit Bandits, change starting army to the non-undisciplined Bakemono-Sho
+-- Add forestrecruit Bandits, change starting army to the non-undisciplined Bakemono
 #selectnation 54
 #forestcom 1313
 #forestrec 1312

@@ -4,6 +4,10 @@ IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/
 --------------------------------------------------------------------------------------
 Changelog
 ---------
+Version 1.08
+------------
+- Shinuyama starting army changed to use the non-undisciplined Bakemono
+
 Version 1.07
 ------------
 - Unused global adjustments. Reducing research/cost/path requirements on those that don't see play
