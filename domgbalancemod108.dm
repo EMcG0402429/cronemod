@@ -589,7 +589,6 @@
 #clearweapons
 #weapon 1279
 #weapon 1281
-#sacred
 #end
 
 #selectmonster 2337
@@ -603,7 +602,6 @@
 #str 14
 #castledef -1
 #clearweapons
-#sacred
 #weapon 1281
 #end
 
@@ -1129,9 +1127,9 @@
 
 -- Revive Lemur Consul --
 -- LA Lemuria
--- -10 Gemcost
+-- -5 Gemcost
 #selectspell 261
-#fatiguecost 1500
+#fatiguecost 2000
 #end
 
 -- Revive Lemur Senator --

@@ -7,6 +7,8 @@ Changelog
 Version 1.08
 ------------
 - Shinuyama starting army changed to use the non-undisciplined Bakemono
+- Removed Sacred from Lemuria troops because it was kinda arbitrary and people were complaining, which is fair enough.
+- Consuls up to 20 gems.
 
 Version 1.07
 ------------
