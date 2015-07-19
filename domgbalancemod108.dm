@@ -547,22 +547,6 @@
 #weapon 1282
 #end
 
--- Lemur Thaumaturg --
--- LA Lemuria
--- Magic Duel Resist
-#selectmonster 2334
-#magicskill 4 2
-#magicboost 4 -1
-#end
-
--- Grand Lemur --
--- LA Lemuria
--- Magic Duel Resist
-#selectmonster 2335
-#magicskill 4 3
-#magicboost 4 -1
-#end
-
 -- Spectral Legionaires --
 -- LA Lemuria
 -- +2 strength, -1 castledef (works out to better siege attack, with reduced siege defence)
@@ -637,6 +621,108 @@
 #selectmonster 1427
 #older -25
 #end
+
+-- Guhyaka
+-- EA Kailasa
+-- Given shields to make them a bit more arrow-resistant
+#selectmonster 1326
+#armor 2
+#descr "A Guhyaka is a lowly Yaksha warrior. They are semi-divine beings gifted with Celestial Splendor that strikes lowly beings with awe. Their mystical powers have made them rulers over the Bandar Log and they are sacred to the monkey people. Guhyakas are armed with spears and shields."
+#end
+
+-- Yavana
+-- EA Kailasa
+-- Shields upgraded a couple notches for increased arrowproofing.
+#selectmonster 1327
+#cleararmor
+#armor 3
+#descr "A Yavana is a Yaksha warrior of the sacred Mount Kailasa. They are semi-divine beings gifted with Celestial Splendor that strikes lowly beings with awe. Their mystical powers have made them rulers over the Bandar Log and they are sacred to the monkey people. Yavanas are armed with falchion and shield, or a longbow."
+#end
+
+-- Enkidu
+-- EA Ur (EA Hinnom)
+-- Base prot increased to 4, from 2.
+-- Units
+#selectmonster 2175
+#prot 4
+#end 
+#selectmonster 2165
+#prot 4
+#end
+#selectmonster 2164
+#prot 4
+#end
+#selectmonster 2174
+#prot 4
+#end
+#selectmonster 2172
+#prot 4
+#end
+#selectmonster 2183
+#prot 4
+#end
+#selectmonster 2168
+#prot 4
+#end
+#selectmonster 2173
+#prot 4
+#end
+#selectmonster 2163
+#prot 4
+#end
+#selectmonster 2162
+#prot 4 
+#end
+#selectmonster 2176
+#prot 4
+#end
+#selectmonster 2184
+#prot 4
+#end
+-- Commanders
+#selectmonster 2179
+#prot 4
+#end
+#selectmonster 2180
+#prot 4 
+#end
+#selectmonster 2268
+#prot 4
+#end
+#selectmonster 2182
+#prot 4
+#end
+#selectmonster 2269
+#prot 4
+#end
+#selectmonster 2181
+#prot 4
+#end
+#selectmonster 2178
+#prot 4
+#end
+#selectmonster 2167
+#prot 4
+#end
+#selectmonster 2161
+#prot 4
+#end
+#selectmonster 2169
+#prot 4
+#end
+#selectmonster 2170
+#prot 4
+#end
+#selectmonster 2177
+#prot 4
+#end
+#selectmonster 2166
+#prot 4
+#end
+#selectmonster 2171
+#prot 4
+#end
+
 
 ----------------------
 --- Nation Changes ---
@@ -741,6 +827,13 @@
 #startunittype1 1390
 #startunittype2 1391
 #end
+
+-- LA Ulm
+-- Slightly pricier labs (600 gold) to reduce ILLUMINATI EVERYFUCKINGWHERE RESEARCH RUSH effect and encourage putting labs in forts instead of just spamming them. Minor increase, given other changes in mod.
+#selectnation 64
+#labcost 600
+#end
+
 
 ---------------
 -- New Units --
@@ -1117,6 +1210,14 @@
 -- Summon Changes --
 --------------------
 
+-- Summon Dakini --
+-- EA Lanka, MA Bandar Log, LA Patala
+-- Increase casting requirement to B3 A2
+#selectspell 369
+#pathlevel 0 3
+#pathlevel 1 2
+#end
+
 -- Revive Lemur Thaumaturg --
 -- LA Lemuria
 -- Reduce casting requirement to D2
@@ -1487,12 +1588,6 @@
 #aoe 663
 #end
 
--- Earthquake --
--- Affects 50% of battlefield
-#selectspell 458
-#aoe 663
-#end
-
 -- Numbness --
 -- Reduce to Alt2, from Alt3
 #selectspell 532
@@ -1807,6 +1902,13 @@
 --------------------
 --- Item Changes ---
 --------------------
+
+-- Skull Talisman --
+-- Moved to Const 2
+#selectitem 236
+#constlevel 2
+#end
+
 
 -- Treelord's Staff --
 -- -1 N needed to craft

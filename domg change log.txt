@@ -2,13 +2,22 @@ With all due credit to my predecessors.
 --------------------------------------------------------------------------------------
 IF YOU FIND BROKEN SHIT, POST AN ISSUE: https://github.com/EMcG0402429/cronemod/issues
 --------------------------------------------------------------------------------------
+ToDo
+----
+
 Changelog
 ---------
 Version 1.08
 ------------
 - Shinuyama starting army changed to use the non-undisciplined Bakemono
 - Removed Sacred from Lemuria troops because it was kinda arbitrary and people were complaining, which is fair enough.
-- Consuls up to 20 gems.
+- Lemur Consuls up to 20 gems.
+- Earthquake change rolled back. Was already less scary than RoS, and more readily counterable.
+- Skull Talisman moved to Const 2.
+- Summon Dakini path requirements increased to B3A2
+- Kailasa recruit anywhere sacreds given shields, shields of their cap only upgraded.
+- Ur Enkidu (and Hinnom Enkidu Slave) base prot increased to 4
+- LA Ulm lab cost increased to 600, to reduce the ridiculous recruit-anywhere research somewhat.
 
 Version 1.07
 ------------
